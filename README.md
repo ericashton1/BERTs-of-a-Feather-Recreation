@@ -1,4 +1,44 @@
+
+
+
+
+
+
+# BERTs-of-a-Feather-Recreation
+
+
+## Steps and Files to Create
+
+Gather data sets. Files to create:
+.tsv file in format NLP can read for MNLI data sets
+.tsv file in format NLP can read for HANS data sets
+
+
+Test 20 MNLI pre-trained models 100 times on MNLI Test data. Files to create:
+Analyze files from running NLPScholar on MNLI data
+
+
+Test 20 MNLI models 100 times on HANS heuristic data. Files to create:
+Analyze files from running NLPScholar on HANS data
+
+
+Compile, analyse, and reflect on results. Files to create:
+Results data table
+Writeup on results and process
+
+
+
+
+
+
+
+
+
+
 # BERTs of a feather
+
+
+
 This folder contains data accompanying the paper [BERTs of a feather do not generalize together: Large variability in generalization across models with similar test set performance](https://www.aclweb.org/anthology/2020.blackboxnlp-1.21.pdf), in which we analyzed how 100 instances of BERT fine-tuned on MNLI varied in their performance on the MNLI development set and on the HANS evaluation set.
 
 ## Accuracies by model
