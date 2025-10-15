@@ -1,0 +1,3 @@
+	model	target_class	precision	recall	f1
+0	/home/tnishizawa/compsci426/midterm/models/models/bert_09_pytorch	non-entailment	0.9158778625954198	0.9468118686868687	0.9310880024833152
+1	/home/tnishizawa/compsci426/midterm/models/models/bert_09_pytorch	entailment	0.8967840735068913	0.8416211555044553	0.8683274021352313
