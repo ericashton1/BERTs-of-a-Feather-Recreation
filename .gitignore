@@ -1,0 +1,19 @@
+# Exclude large model files
+models/bert_*/pytorch_model.bin
+models/bert_*/model.safetensors
+models/bert_*/*.ckpt*
+models/bert_*/checkpoint
+
+# Exclude TensorFlow checkpoints
+models/bert_*/*.data-*
+models/bert_*/*.index
+models/bert_*/*.meta
+
+# Exclude Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Exclude conda/venv
+env/
+venv/

@@ -1,0 +1,24 @@
+exp: TextClassification
+
+mode: 
+    - evaluate
+    - analyze
+
+models:
+    hf_text_classification_model:
+      - ../Midterm/BERTs-of-a-Feather-Recreation/models/bert_13_pytorch
+
+predfpath: ../Midterm/BERTs-of-a-Feather-Recreation/models/bert13_hans_predictions.tsv
+
+datafpath: ../Midterm/BERTs-of-a-Feather-Recreation/data/hans_data.tsv
+
+resultsfpath: ../Midterm/BERTs-of-a-Feather-Recreation/models/bert13_hans_results.tsv
+
+id2label:
+   0: non-entailment
+   1: entailment
+   2: non-entailment
+
+save: by_target
+
+giveAllLabels: False
