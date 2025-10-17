@@ -8,7 +8,7 @@
 
 ## Overview
 
-This is a recreation of {McCoy et al.'s BERTs of a Feather Do Not Generalize Together}(https://github.com/tommccoy1/hans/tree/master/berts_of_a_feather). The study shows how BERTs that only differ in fine-tuning weights and order of data seen vary greatly in accuracies when evaluated on out-of-distribution data.
+This is a recreation of [McCoy et al.'s BERTs of a Feather Do Not Generalize Together](https://github.com/tommccoy1/hans/tree/master/berts_of_a_feather). The study shows how BERTs that only differ in fine-tuning weights and order of data seen vary greatly in accuracies when evaluated on out-of-distribution data.
 
 ## Steps and Files to Create
 
