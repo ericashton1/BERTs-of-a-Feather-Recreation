@@ -29,5 +29,40 @@ Results data table
 Writeup on results and process
 
 
+## Models
+
+The models folder contains 1 exmaple of the 20 models we used in our recreation of the McCoy et al. study. Each of the other models is identical to this BERT model that was fine-tuned on MNLI data except for their weights and the order in which they were exposed to MNLI premise/hypothesis pairs.
+
+## Data Set Creation
+
+dataset_creation_scripts.py is the python file used to create the .tsv files that can be found in the data folder.
+
+## Data
+
+This contains the .tsv files that were analyzed and evaluated by each of the models. One tsv file contains MNLI data and another HANS data. Each datset has a textid, premise, hypothesis, and target (entailment or non-entailment).
+
+## Configs
+
+The configs folder contains the config files used to analyze and evaluate the data using NLPScholar.
+
+## MNLI Predictions
+
+The MNLI_predictions folder contains the results from running evaluate on the MNLI data. Each predictions file corresponds with one of the 20 models.
+
+## MNLI Results
+
+The MNLI_results folder contains the results from running analyze on the MNLI data. Each results file corresponds with one of the 20 models.
+
+## HANS Predictions
+
+The HANS_predictions folder contains the results from running evaluate on the HANS data. Each predictions file corresponds with one of the 20 models.
+
+## HANS Results
+
+The HANS_results folder contains the results from running analyze on the HANS data. Each results file corresponds with one of the 20 models.
+
+
+
+
 
 
