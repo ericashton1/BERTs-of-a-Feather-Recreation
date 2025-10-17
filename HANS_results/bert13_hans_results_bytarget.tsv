@@ -1,0 +1,3 @@
+	model	target_class	precision	recall	f1
+0	../Midterm/BERTs-of-a-Feather-Recreation/models/bert_13_pytorch	non-entailment	0.9171760391198044	0.20006666666666667	0.32848073555166374
+1	../Midterm/BERTs-of-a-Feather-Recreation/models/bert_13_pytorch	entailment	0.5510700389105059	0.9819333333333333	0.7059528374233128
