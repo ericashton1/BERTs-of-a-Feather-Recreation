@@ -1,0 +1,26 @@
+exp: TextClassification
+
+mode: 
+    - analyze
+
+models:
+    hf_text_classification_model: 
+    - /home/tnishizawa/compsci426/midterm/models/models/bert_19_pytorch
+
+
+datafpath: /home/tnishizawa/compsci426/midterm/data/mnli_data.tsv
+
+predfpath: /home/tnishizawa/compsci426/midterm/predictions/bert_19_mnli_predictions.tsv
+
+resultsfpath: /home/tnishizawa/compsci426/midterm/results/bert_19_mnli_results.tsv
+
+id2label:
+    0: non-entailment
+    1: entailment
+    2: non-entailment
+
+
+save: by_target
+
+giveAllLabels: False
+
